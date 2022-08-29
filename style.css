@@ -1,0 +1,10 @@
+.squares {
+    display: grid;
+  grid-template-columns: repeat(16, 0fr);
+}
+
+.square {
+    height: 30px;
+    width: 30px;
+    border: 1px solid orange;
+}
